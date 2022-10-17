@@ -19,6 +19,22 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
@@ -37,5 +53,46 @@ h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
   color: black;
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: black;
   margin: 4px 0;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(4, 7, 83);
+  align-items: center;
+  color: azure;
+  padding: 16px;
+}
+
+.navbar__logo {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navbar__menu__item.active {
+  border: 1px solid azure;
+}
+
+.navbar__menu__item:hover {
+  background-color: rgb(77, 81, 184);
 }
