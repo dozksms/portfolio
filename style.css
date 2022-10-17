@@ -115,3 +115,45 @@ p {
 .home__description {
   color: azure;
 }
+
+/* section */
+.section {
+  padding: 50px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about__majors {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+}
+
+.major__icon {
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+  font-size: 70px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  color: blue;
+}
+
+.major__icon i {
+  transition: all 300ms ease;
+}
+.major__icon:hover i {
+  color: pink;
+  transform: rotate(-30deg) scale(1.1);
+}
+
+.major__title,
+.major__description {
+  color: rgb(158, 158, 158);
+}
+
+.major__description {
+  font-size: var(--font-small);
+}
