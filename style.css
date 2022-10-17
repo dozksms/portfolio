@@ -97,12 +97,18 @@ p {
   border-radius: 4px;
 }
 
-.navbar__menu__item.active {
+/* .navbar__menu__item.active {
   border: 1px solid azure;
-}
+} */
 
 .navbar__menu__item:hover {
   background-color: rgb(77, 81, 184);
+  border: 1px solid azure;
+  transform: scale(1.1);
+}
+
+.navbar__menu__item {
+  transition: all 300ms ease;
 }
 
 .navbar__toggle-btn {
