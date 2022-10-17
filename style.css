@@ -96,3 +96,22 @@ p {
 .navbar__menu__item:hover {
   background-color: rgb(77, 81, 184);
 }
+
+/* Home */
+#home {
+  background: url('img/background.png') center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.home__title,
+.home__description {
+  color: azure;
+}
