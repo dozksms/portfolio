@@ -157,3 +157,30 @@ p {
 .major__description {
   font-size: var(--font-small);
 }
+
+/* contact */
+#contact {
+  background-color: rgb(4, 7, 83);
+}
+
+.contact__title,
+.contact__email {
+  color: azure;
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i {
+  transition: 300ms ease-in;
+}
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: rgb(220, 76, 100);
+}
